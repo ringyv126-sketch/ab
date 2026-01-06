@@ -1,0 +1,6 @@
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws
+colcon build
+
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
