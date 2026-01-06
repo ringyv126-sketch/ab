@@ -1,0 +1,12 @@
+cd ~/ros2_ws/src
+rm -rf build install log
+Bạn đã gửi
+cd ~/ros2_ws
+source /opt/ros/humble/setup.bash
+colcon build --symlink-install
+Bạn đã gửi
+source install/setup.bash
+Bạn đã gửi
+ls ~/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch
+Bạn đã gửi
+ros2 launch rplidar_ros view_rplidar.launch.py
