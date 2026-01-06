@@ -1,0 +1,15 @@
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y \
+  build-essential \
+  cmake \
+  git \
+  curl \
+  wget \
+  software-properties-common \
+  python3-pip \
+  python3-colcon-common-extensions \
+  python3-rosdep \
+  python3-argcomplete \
+  libusb-1.0-0-dev \
+  i2c-tools \
+  net-tools
