@@ -1,0 +1,4 @@
+sudo apt install -y \
+python3-rosdep \
+python3-colcon-common-extensions \
+python3-argcomplete
