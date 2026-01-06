@@ -1,0 +1,2 @@
+ls /opt/ros
+apt policy ros-humble-desktop
