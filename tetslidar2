@@ -1,0 +1,13 @@
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+Bạn đã gửi
+git clone https://github.com/Slamtec/rplidar_ros.git -b ros2
+Bạn đã gửi
+cd ~/ros2_ws
+colcon build
+Bạn đã gửi
+source install/setup.bash
+Bạn đã gửi
+ros2 pkg list | grep rplidar
+Bạn đã gửi
+ros2 launch rplidar_ros rplidar.launch.py
