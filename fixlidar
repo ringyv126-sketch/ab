@@ -1,0 +1,8 @@
+ls /dev/ttyUSB*
+Bạn đã gửi
+groups
+Bạn đã gửi
+sudo usermod -a -G dialout $USER
+reboot
+Bạn đã gửi
+ros2 launch rplidar_ros view_rplidar_a1.launch.py serial_port:=/dev/ttyUSB0
